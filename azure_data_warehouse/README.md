@@ -4,12 +4,6 @@ Building an Azure Data Warehouse for Bike Share Data Analytics
 
 Instructions for how to get a copy of the project running on your local machine.
 
-### Dependencies
-
-```
-Examples here
-```
-
 ### Installation
 
 
