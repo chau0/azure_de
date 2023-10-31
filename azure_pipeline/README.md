@@ -35,10 +35,12 @@ This section should contain all the student deliverables for this project.
 #### Step 6: Connect to github
 
 Link github project
-```
+
 https://github.com/lhc1990/azure-de-synapse/tree/develop
-```
+
 File zip project
+
+[Source zip](./git_src/azure-de-synapse-develop.zip)
 
 
 
