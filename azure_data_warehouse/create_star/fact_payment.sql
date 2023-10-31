@@ -4,8 +4,8 @@ BEGIN
     DROP EXTERNAL TABLE dbo.fact_payment;
 END
 
-CREATE EXTERNAL TABLE [dbo].[dim_payment] WITH(
-    LOCATION = 'dim_payment',
+CREATE EXTERNAL TABLE [dbo].[fact_payment] WITH(
+    LOCATION = 'fact_payment',
     DATA_SOURCE = [syanpse_udadls_dfs_core_windows_net],
     FILE_FORMAT = [SynapseDelimitedTextFormat]
 ) AS (
@@ -22,4 +22,4 @@ Go
 SELECT
     TOP 10*
 FROM 
-    [dbo].[dim_payment];
+    [dbo].[fact_payment];

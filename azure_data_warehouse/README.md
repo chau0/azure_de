@@ -43,7 +43,7 @@ This section should contain all the student deliverables for this project.
 - [trip](./load/load_trip.sql)
 
 #### Task 6: TRANSFORM the data to the star schema using CETAS
-- [dim_payment](./create_star/dim_payment.sql)
+- [dim_payment](create_star/fact_payment.sql)
 - [dim_rider](./create_star/dim_rider.sql)
 - [dim_station](./create_star/dim_station.sql)
 - [dim_time](./create_star/dim_time.sql)
